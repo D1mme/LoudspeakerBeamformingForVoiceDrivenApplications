@@ -5,7 +5,7 @@ This repository contains the MATLAB code corresponding to the submitted paper "L
 To be updated... For now: simply run `example.m`. This sets:
 - the `room` object: where are the loudspeakers, the listener, etc.
 - the `settings` object: this object controls the settings, such as the number of integration points in the quadrature method.
-- the `par_meas` object: this object is used for the perceptual measure. See also the corresponding [paper](https://doi.org/10.1155/ASP.2005.1292) (not mine) and [my code](https://github.com/D1mme/Par-measure)
+- the `par_meas` object: this object is used for the perceptual measure. See also the corresponding [paper](https://doi.org/10.1155/ASP.2005.1292) by Van de Par et al. and [my code](https://github.com/D1mme/Par-measure)
 
 After setting the objects the loudspeaker playback signals are computed by calling the loudspeaker spotformer.
 
