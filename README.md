@@ -15,6 +15,6 @@ To be updated...
 
 ## Licensing
 The examples make use of the [room-impulse response generator](https://www.audiolabs-erlangen.de/fau/professor/habets/software/rir-generator) from E. Habets (MIT license). You might need to compile this for your system.
-The sound excerpt is taken from the movie ['Sprite Fight'](https://studio.blender.org/films/sprite-fright/) by Blender Studio (Creative Commons Attribution 1.0 License). The numerical integration is performed using the [Fast Clenshaw-Curtis quadrature](https://www.mathworks.com/matlabcentral/fileexchange/6911-fast-clenshaw-curtis-quadrature) by G. von Winckel, published under a permissive license (see folder).
+The sound excerpt is taken from the movie ['Sprite Fight'](https://studio.blender.org/films/sprite-fright/) by Blender Studio (Creative Commons Attribution 1.0 License). The numerical integration is performed using the [Fast Clenshaw-Curtis quadrature](https://www.mathworks.com/matlabcentral/fileexchange/6911-fast-clenshaw-curtis-quadrature) by G. von Winckel, published under a permissive license. The voice commands are obtained from the [LibriSpeech ASR corpus](https://www.openslr.org/12/) and published under a CC-BY-SA 4.0 license. All licenses can be found in the corresponding folder.
 
 The remainder of the code is published under an MIT license.
