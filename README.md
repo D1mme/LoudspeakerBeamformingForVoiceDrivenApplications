@@ -14,6 +14,8 @@ While not part of the loudspeaker spotformer itself, the performance of the loud
 - The energy reduction achieved in the neighbourhood of the listener (compared to the reference playback file)
 - The intelligibility at the output of the microphones. The microphone algorithm is either a single microphone (nearest neighbour), a microphone spotformer or an MPDR/MVDR beamformer.
 
+Separate code for the beamformers can be found [here (MPDR/MVDR)](https://github.com/D1mme/MPDR-beamformer) and [here (microphone spotformer)](https://github.com/D1mme/microphone_spotformer).
+
 ## Requirements 
 - [CVX](https://cvxr.com/cvx/) for MATLAB (I used Version 2.2, build 1148). 
   - I used [MOSEK](https://www.mosek.com/) (Version 9.1.9) as solver, but I expect other solvers to work as well.
