@@ -1,0 +1,10 @@
+The voice commands in this folder are part of the LibriSpeech ASR corpus and were obtained from https://www.openslr.org/12/
+
+The LibriSpeech ASR corpus is licensed under a CC-BY-SA 4.0 license, see https://creativecommons.org/licenses/by/4.0/
+
+Description (from https://www.openslr.org/12/):
+LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech, prepared by Vassil Panayotov with the assistance of Daniel Povey. The data is derived from read audiobooks from the LibriVox project, and has been carefully segmented and aligned. 
+
+Modifications (July 2, 2024):
+- Renamed 1580-141083-0004.flac to vc1.flac
+- Renamed 7176-92135-0023.flac to vc2.flac
