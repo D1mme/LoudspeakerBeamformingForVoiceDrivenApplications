@@ -14,14 +14,14 @@ While not part of the loudspeaker spotformer itself, the performance of the loud
 - The energy reduction achieved in the neighbourhood of the listener (compared to the reference playback file)
 - The intelligibility at the output of the microphones. The microphone algorithm is either a single microphone (nearest neighbour), a microphone spotformer or an MPDR/MVDR beamformer.
 
-Separate code for the beamformers can be found [here (MPDR/MVDR)](https://github.com/D1mme/MPDR-beamformer) and [here (microphone spotformer)](https://github.com/D1mme/microphone_spotformer).
+Separate code for the beamformers can be found [here](https://github.com/D1mme/MPDR-beamformer) (MPDR/MVDR) and [here](https://github.com/D1mme/microphone_spotformer) (microphone spotformer).
 
 ## Requirements 
 - [CVX](https://cvxr.com/cvx/) for MATLAB (I used Version 2.2, build 1148). 
   - I used [MOSEK](https://www.mosek.com/) (Version 9.1.9) as solver, but I expect other solvers to work as well.
 - MATLABs [signal processing toolbox](https://www.mathworks.com/products/signal.html)
 - MATLABs [audio toolbox](https://www.mathworks.com/products/audio.html)
-- The [room-impulse response generator](https://www.audiolabs-erlangen.de/fau/professor/habets/software/rir-generator) by E. Habets. A version compiled for my system is provided.
+- The [room-impulse response generator](https://www.audiolabs-erlangen.de/fau/professor/habets/software/rir-generator) by E. Habets. A version compiled for my system (Ubuntu) is provided.
 
 The code was tested on Matlab R2024a on Ubuntu 23.10. 
 
