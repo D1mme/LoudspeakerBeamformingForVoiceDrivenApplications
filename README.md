@@ -2,13 +2,26 @@
 This repository contains the MATLAB code corresponding to the submitted paper "Loudspeaker beamforming to enhance speech recognition performance of voice driven applications" (submitted for ICASSP 2025)
 
 ## Usage
-To be updated... For now: simply run `example.m`. In the code there is more explanation.
+To be updated... For now: simply run `example.m`. This sets:
+- the `room` object: where are the loudspeakers, the listener, etc.
+- the `settings` object: this object controls the settings, such as the number of integration points in the quadrature method.
+- the `par_meas` object: this object is used for the perceptual measure. See also the corresponding [paper](https://doi.org/10.1155/ASP.2005.1292) (not mine) and [my code](https://github.com/D1mme/Par-measure)
+
+After setting the objects the loudspeaker playback signals are computed by calling the loudspeaker spotformer.
+
+While not part of the loudspeaker spotformer itself, the performance of the loudspeaker spotformer is evaluated by considering:
+- The audio quality in the neighbourhood of the listener, measured using ViSQOLAudio;
+- The energy reduction achieved in the neighbourhood of the listener (compared to the reference playback file)
+- The intelligibility at the output of the microphones. The microphone algorithm is either a single microphone (nearest neighbour), a microphone spotformer or an MPDR/MVDR beamformer.
 
 ## Requirements 
-- [CVX](https://cvxr.com/cvx/) for MATLAB installed.
-  - I used [MOSEK](https://www.mosek.com/) as solver, but I expect other solvers to work as well.
+- [CVX](https://cvxr.com/cvx/) for MATLAB (I used Version 2.2, build 1148). 
+  - I used [MOSEK](https://www.mosek.com/) (Version 9.1.9) as solver, but I expect other solvers to work as well.
 - MATLABs [signal processing toolbox](https://www.mathworks.com/products/signal.html)
 - MATLABs [audio toolbox](https://www.mathworks.com/products/audio.html)
+- The [room-impulse response generator](https://www.audiolabs-erlangen.de/fau/professor/habets/software/rir-generator) by E. Habets. A version compiled for my system is provided.
+
+The code was tested on Matlab R2024a on Ubuntu 23.10. 
 
 ## Notes
 To be updated...
