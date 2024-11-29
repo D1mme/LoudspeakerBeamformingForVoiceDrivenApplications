@@ -33,3 +33,6 @@ The examples make use of the [room-impulse response generator](https://www.audio
 The sound excerpt is taken from the movie ['Sprite Fight'](https://studio.blender.org/films/sprite-fright/) by Blender Studio (Creative Commons Attribution 1.0 License). The numerical integration is performed using the [Fast Clenshaw-Curtis quadrature](https://www.mathworks.com/matlabcentral/fileexchange/6911-fast-clenshaw-curtis-quadrature) by G. von Winckel, published under a permissive license. The voice commands are obtained from the [LibriSpeech ASR corpus](https://www.openslr.org/12/) and published under a CC-BY-SA 4.0 license. All licenses can be found in the corresponding folder.
 
 The remainder of the code is published under an MIT license.
+
+## Contact
+If you find any bugs, have questions or have other comments, please contact ddegroot@tudelft.nl
