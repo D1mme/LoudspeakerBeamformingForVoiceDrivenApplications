@@ -1,5 +1,5 @@
 # Loudspeaker Beamforming for Voice Driven Applications
-This repository contains the MATLAB code corresponding to the submitted paper "Loudspeaker beamforming to enhance speech recognition performance of voice driven applications" (Accepted for ICASSP 2025, link will be added once available.)
+This repository contains the MATLAB code corresponding to the submitted paper "Loudspeaker beamforming to enhance speech recognition performance of voice driven applications" (Accepted for ICASSP 2025, [arxiv](https://arxiv.org/abs/2501.08104).)
 
 ## Usage
 Run `example.m`. This sets:
