@@ -26,7 +26,7 @@ Separate code for the beamformers can be found [here](https://github.com/D1mme/M
 The code was tested on Matlab R2024a on Ubuntu 23.10. 
 
 ## Notes
-None at the moment :)
+The poster and some presentation slides can be found in the folder `poster_and_presentation`.
 
 ## Licensing
 The examples make use of the [room-impulse response generator](https://www.audiolabs-erlangen.de/fau/professor/habets/software/rir-generator) from E. Habets (MIT license). You might need to compile this for your system.
