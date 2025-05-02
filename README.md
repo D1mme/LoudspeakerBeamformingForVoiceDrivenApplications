@@ -36,3 +36,19 @@ The remainder of the code is published under an MIT license.
 
 ## Contact
 If you find any bugs, have questions or have other comments, please contact ddegroot@tudelft.nl
+
+## Citation information:
+We used this implementation in our ICASSP paper "Loudspeaker Beamforming to Enhance Speech Recognition Performance of Voice Driven Applications". If you use this implementation please consider citing us. Citation information:
+```
+@INPROCEEDINGS{10889702,
+  author={de Groot, D. and Karslioglu, B. and Scharenborg, O. and Martinez, J.},
+  booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  title={Loudspeaker Beamforming to Enhance Speech Recognition Performance of Voice Driven Applications},
+  year={2025},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Loudspeakers;Performance evaluation;Acoustic distortion;Array signal processing;Signal processing algorithms;Acoustics;Robustness;Distortion measurement;Speech processing;Automatic speech recognition;Spotforming;beamforming;speech recognition}
+  doi={10.1109/ICASSP49660.2025.10889702}}
+```
+
